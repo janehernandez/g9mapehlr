@@ -1,54 +1,171 @@
 {
-  "announcement": "Please watch out",
+  "announcements": [
+    {
+      "content": "WALANG PASOK announcement",
+      "link": "https://www.officialgazette.gov.ph/downloads/2022/11nov/20221109-PROC-90-FRM.pdf"
+    },
+    {
+      "content": "hello1",
+      "link": "https://www.officialgazette.gov.ph/downloads/2022/11nov/20221109-PROC-90-FRM.pdf"
+    },
+    {
+      "content": "test 1",
+      "link": "https://www.officialgazette.gov.ph/downloads/2022/11nov/20221109-PROC-90-FRM.pdf"
+    },
+    {
+      "content": "asdasdsadasdasdasdasdasdasdasdas sadasd",
+      "link": "https://www.officialgazette.gov.ph/downloads/2022/11nov/20221109-PROC-90-FRM.pdf"
+    }
+  ],
+  "menus": [
+    {
+      "label": "Home",
+      "link": "/"
+    },
+    {
+      "label": "About",
+      "link": "#"
+    },
+    {
+      "label": "Gallery",
+      "link": "#"
+    },
+    {
+      "label": "Student Materials",
+      "link": "#",
+      "sub_menu": [
+        {
+          "label": "Learners Packet (LeAP)",
+          "link": "https://drive.google.com/drive/folders/1qhSUT5nR3QonNUHSoEhbnFIgAOxJOB5H?usp=drive_link"
+        },
+        {
+          "label": "Learning Activity Sheets (LAS)",
+          "link": "https://drive.google.com/drive/folders/11TMDOjzdJ8nJqEpjheAgDTc3xO13L5mY?usp=drive_link",
+          "submenu": [
+            {
+              "label": "Images",
+              "link": "https://drive.google.com/drive/folders/10YkeoaGOQSsUw2N9MttPTiD3u9rc_D6z?usp=drive_link"
+            },
+            {
+              "label": "PDFs",
+              "link": "https://drive.google.com/drive/folders/193h3kDlspvl-dPafsjV8PCOBM3_QlZNO?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "label": "Lessons_Lectures (STUDENTS COPY)",
+          "link": "https://drive.google.com/drive/folders/1SzpZCOHVTAGT9o_1EaDsKenM4xj79noa?usp=drive_link"
+        },
+        {
+          "label": "Modules",
+          "link": "https://drive.google.com/drive/folders/1ppD1RcwwjaXRi_PQ3mcyiFG8FmDQqZfD?usp=drive_link"
+        },
+        {
+          "label": "Reviewer",
+          "link": "https://drive.google.com/drive/folders/1mhwo2ycWLmUhs0QQG1WS3vvEyKOiZCJr?usp=drive_link"
+        },
+        {
+          "label": "Student Activity Sheet",
+          "link": "https://drive.google.com/drive/folders/1uu8sp21hYqzUlG8ehIkY4HtmZgLS608X?usp=drive_link"
+        }
+      ]
+    },
+    {
+      "label": "Teachers Materials",
+      "link": "#",
+      "sub_menu": [
+        {
+          "label": "ACR_Minutes of the Meetings",
+          "link": "https://drive.google.com/drive/folders/1gjD5dvTrczsNP_nk1VJDLf35zTXPLgIU?usp=drive_link"
+        },
+        {
+          "label": "Adviser Files",
+          "link": "https://drive.google.com/drive/folders/1mPdhk8vTU487H0fF5l6qKb_aivVbtaFa?usp=drive_link"
+        },
+        {
+          "label": "Assessments",
+          "link": "https://drive.google.com/drive/folders/1dFmJ2k7PiS81gvLkqTxFbwe2YzKVBa0F?usp=drive_link"
+        },
+        {
+          "label": "Daily Lesson Log (DLL)",
+          "link": "https://drive.google.com/drive/folders/1mt1hmZ4sU2bcDPrzJWyxVcQDgzrkuuuM?usp=drive_link"
+        },
+        {
+          "label": "DEPED Learning Materials (Books)",
+          "link": "https://drive.google.com/drive/folders/1YB2csRiqOm5aKiRvFkcMXiI5Wr1j9Vt2?usp=drive_link"
+        },
+        {
+          "label": "E-SAT",
+          "link": "https://drive.google.com/drive/folders/1wqdwx6gWogtW5L_ISJ0SyH4BoROW8h74?usp=drive_link"
+        },
+        {
+          "label": "ECRA v.3",
+          "link": "https://drive.google.com/drive/folders/1rfyQAP1CilkVbbPVvFNmQtZPTfuO1zjD?usp=drive_link"
+        },
+        {
+          "label": "Lessons",
+          "link": "https://drive.google.com/drive/folders/1phqLmF6MbbNiihESuwRGJR6sQDCv4_uT?usp=drive_link"
+        },
+        {
+          "label": "Most Essential Competencies (MELCs)",
+          "link": "https://drive.google.com/drive/folders/1nOrMPJ8-T3d11wkM89jgTQyR8IdloLVB?usp=drive_link"
+        },
+        {
+          "label": "RPMS_IPCRF",
+          "link": "https://drive.google.com/drive/folders/1XQpTe4qgfWsrfzMZY6OkC165BK4RAmgL?usp=drive_link"
+        },
+        {
+          "label": "Templates",
+          "link": "https://drive.google.com/drive/folders/1bXlKIG6KWXBlviHJvSdSQ8BcG1QPIwro?usp=drive_link"
+        }
+      ]
+    },
+    {
+      "label": "",
+      "link": ""
+    }
+  ],
   "teachers": {
     "g9": [
       {
         "picture": "img/teachers/Jean H. Laparan.jpg",
         "name": "Jean H. Laparan",
-        "designation": "Teacher III",
-        "motto": "Learning is fun!"
+        "designation": "Teacher III"
       },
       {
         "picture": "img/teachers/Jeanette L. Ibay.jpg",
         "name": "Jeanette L. Ibay",
-        "designation": "English Teacher",
-        "motto": "Read, write, and inspire!"
+        "designation": "Teacher III"
       },
       {
         "picture": "img/teachers/Jeffrey C. Costa.jpg",
         "name": "Jeffrey C. Costa",
-        "designation": "Science Teacher",
-        "motto": "Exploring the wonders of nature!"
+        "designation": "Teacher III"
       },
       {
         "picture": "img/teachers/Jerilyn B. Papagayo.jpg",
         "name": "Jerilyn B. Papagayo",
-        "designation": "English Teacher",
-        "motto": "Read, write, and inspire!"
+        "designation": "Teacher III"
       },
       {
         "picture": "img/teachers/Jomar I. Lago.jpg",
         "name": "Jomar I. Lago",
-        "designation": "Science Teacher",
-        "motto": "Exploring the wonders of nature!"
+        "designation": "Teacher III"
       },
       {
         "picture": "img/teachers/Leonor F. Madali.jpeg",
         "name": "Leonor F. Madali",
-        "designation": "Science Teacher",
-        "motto": "Exploring the wonders of nature!"
+        "designation": "Teacher III"
       },
       {
         "picture": "img/teachers/Mariano O. Evangelista Jr..jpeg",
         "name": "Mariano O. Evangelista Jr.",
-        "designation": "Science Teacher",
-        "motto": "Exploring the wonders of nature!"
+        "designation": "Teacher III"
       },
       {
         "picture": "img/teachers/Reynaldo M. Asuncion Jr..jpg",
         "name": "Reynaldo M. Asuncion Jr.",
-        "designation": "Science Teacher",
-        "motto": "Exploring the wonders of nature!"
+        "designation": "Teacher III"
       }
     ]
   }

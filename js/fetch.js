@@ -1,9 +1,9 @@
-fetch("../json/index.json")
+fetch("https://api.jsonbin.io/v3/b/64dee5c38e4aa6225ed1bacf")
   .then((res) => {
     return res.json();
   })
   .then((data) => {
-    const { announcements, teachers, menus } = data;
+    const { announcements, teachers, menus } = data.record;
     displayTeacherSlide(teachers);
     displayAnnouncementSlides(announcements);
     displayMenus(menus);
@@ -55,8 +55,12 @@ function displayAnnouncementSlides(announcements) {
       "announcement-text bg-light text-center p-4"
     );
 
-    const contentParagraph = $("<p>").addClass("mb-4").text(item.content);
+    const contentParagraph = $("<p>").addClass("mb-1").html(item.content);
+    const date = $("<small>")
+      .addClass("text-center")
+      .text('Posted on: ' + dayjs(item.date_posted, "MM-DD-YYYY").format("MMMM D, YYYY"));
 
+    const line = $("<div>").addClass("mb-4");
     let link = null;
     if (item.link) {
       link = $("<a>")
@@ -66,7 +70,7 @@ function displayAnnouncementSlides(announcements) {
         .text("Click Here to view details");
     }
 
-    announcementDiv.append(contentParagraph, link);
+    announcementDiv.append(contentParagraph, date, line, link);
     slideDiv.append(announcementDiv);
 
     // Append the slide to the Owl Carousel

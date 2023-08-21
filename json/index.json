@@ -2,19 +2,23 @@
   "announcements": [
     {
       "content": "WALANG PASOK announcement",
-      "link": "https://www.officialgazette.gov.ph/downloads/2022/11nov/20221109-PROC-90-FRM.pdf"
+      "link": "https://www.officialgazette.gov.ph/downloads/2022/11nov/20221109-PROC-90-FRM.pdf",
+      "date_posted": "2023-08-12"
     },
     {
       "content": "hello1",
-      "link": "https://www.officialgazette.gov.ph/downloads/2022/11nov/20221109-PROC-90-FRM.pdf"
+      "link": "https://www.officialgazette.gov.ph/downloads/2022/11nov/20221109-PROC-90-FRM.pdf",
+      "date_posted": "2023-08-12"
     },
     {
       "content": "test 1",
-      "link": "https://www.officialgazette.gov.ph/downloads/2022/11nov/20221109-PROC-90-FRM.pdf"
+      "link": "https://www.officialgazette.gov.ph/downloads/2022/11nov/20221109-PROC-90-FRM.pdf",
+      "date_posted": "2023-08-12"
     },
     {
       "content": "asdasdsadasdasdasdasdasdasdasdas sadasd",
-      "link": "https://www.officialgazette.gov.ph/downloads/2022/11nov/20221109-PROC-90-FRM.pdf"
+      "link": "https://www.officialgazette.gov.ph/downloads/2022/11nov/20221109-PROC-90-FRM.pdf",
+      "date_posted": "2023-08-12"
     }
   ],
   "menus": [

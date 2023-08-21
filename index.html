@@ -182,8 +182,9 @@
 
     <script>
       var yearDate = new Date().getFullYear();
-      var startYear = parseInt(yearDate) - 1;
-      $(".sy").text(`S.Y ${startYear} - ${yearDate}`);
+      var startYear = parseInt(yearDate);
+      var endYear = parseInt(yearDate) + 1;
+      $(".sy").text(`S.Y ${startYear} - ${endYear}`);
       $("#year").text(yearDate);
     </script>
   </body>

@@ -15,23 +15,37 @@ function displayTeacherSlide({ g9: data }) {
   // Loop through each item in the JSON data
   data.forEach((item) => {
     // Create the slide div element for the teacher item
-    const slideDiv = $("<div>").addClass("teacher-item text-center");
+    const slideDiv = $("<div>").addClass("container teacher-item");
+
+    const row = $("<div>").addClass("row");
 
     // Create the image element
     let img = $("<img>")
-      .addClass("border rounded-circle p-2 mx-auto mb-3")
-      .attr("style", "width: 120px; height: 120px");
+      .addClass(
+        `col-lg-6 col-sm-12 flex align-items-center border rounded-circle p-2 mx-auto mb-3 teacher-img`
+      )
+      .attr("style", "width: 300px; height: 300px");
 
     // create image
     img.attr("src", item.picture || "img/no-picture.jpg");
 
+    const details = $("<div>").addClass(
+      `col-lg-6 col-sm-12 flex align-items-center teacher-details`
+    );
+
     // Create the teacher name element (h5)
-    const nameHeading = $("<h5>").addClass("mb-0").text(item.name);
+    const nameHeading = $("<h3>").addClass("mb-0").html(item.name);
 
     // Create the designation element (p)
-    const designationParagraph = $("<p>").text(item.designation);
+    const designationParagraph = $("<h4>").html(item.designation);
+    const advisory = $("<p>").addClass("mb-0").html(`<b>Advisory: </b> ${item.advisory}`);
+    const sections = $("<p>").addClass("mb-0").html(`<b>Sections: </b> ${item.sections}`);
+    const ancillary = $("<p>").addClass("mb-0").html(`<b>Ancillary: </b> ${item.ancillary}`);
 
-    slideDiv.append(img, nameHeading, designationParagraph);
+    details.append(nameHeading, designationParagraph, advisory, sections, ancillary);
+
+    row.append(img, details);
+    slideDiv.append(row);
 
     // Append the slide to the Owl Carousel
     owlCarousel.trigger("add.owl.carousel", [slideDiv]);
@@ -58,7 +72,10 @@ function displayAnnouncementSlides(announcements) {
     const contentParagraph = $("<p>").addClass("mb-1").html(item.content);
     const date = $("<small>")
       .addClass("text-center")
-      .text('Posted on: ' + dayjs(item.date_posted, "MM-DD-YYYY").format("MMMM D, YYYY"));
+      .text(
+        "Posted on: " +
+          dayjs(item.date_posted, "MM-DD-YYYY").format("MMMM D, YYYY")
+      );
 
     const line = $("<div>").addClass("mb-4");
     let link = null;

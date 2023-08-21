@@ -134,42 +134,82 @@
       {
         "picture": "img/teachers/Jean H. Laparan.jpg",
         "name": "Jean H. Laparan",
-        "designation": "Teacher II"
+        "designation": "Teacher II | Key Teacher",
+        "advisory":  "1234",
+        "sections": "section 1, section 2, section 3",
+        "ancillary": "..."
+      },
+      {
+        "picture": "img/teachers/Bob C. Belocura Jr..jpg",
+        "name": "Jean H. Laparan",
+        "designation": "Teacher II | Key Teacher",
+        "advisory":  "1234",
+        "sections": "section 1, section 2, section 3",
+        "ancillary": "..."
+      },
+      {
+        "picture": "img/teachers/Geric J. Tolentino.png",
+        "name": "Jean H. Laparan",
+        "designation": "Teacher II | Key Teacher",
+        "advisory":  "1234",
+        "sections": "section 1, section 2, section 3",
+        "ancillary": "..."
       },
       {
         "picture": "img/teachers/Jeanette L. Ibay.jpg",
-        "name": "Jeanette L. Ibay",
-        "designation": "Teacher I"
-      },
-      {
-        "picture": "img/teachers/Jeffrey C. Costa.jpg",
-        "name": "Jeffrey C. Costa",
-        "designation": "Teacher I"
+        "name": "Jean H. Laparan",
+        "designation": "Teacher II | Key Teacher",
+        "advisory":  "1234",
+        "sections": "section 1, section 2, section 3",
+        "ancillary": "..."
       },
       {
         "picture": "img/teachers/Jerilyn B. Papagayo.jpg",
-        "name": "Jerilyn B. Papagayo",
-        "designation": "Teacher III"
-      },
-      {
-        "picture": "img/teachers/Jomar I. Lago.jpg",
-        "name": "Jomar I. Lago",
-        "designation": "Teacher II"
+        "name": "Jean H. Laparan",
+        "designation": "Teacher II | Key Teacher",
+        "advisory":  "1234",
+        "sections": "section 1, section 2, section 3",
+        "ancillary": "..."
       },
       {
         "picture": "img/teachers/Leonor F. Madali.jpeg",
-        "name": "Leonor F. Madali",
-        "designation": "Teacher I"
+        "name": "Jean H. Laparan",
+        "designation": "Teacher II | Key Teacher",
+        "advisory":  "1234",
+        "sections": "section 1, section 2, section 3",
+        "ancillary": "..."
       },
       {
         "picture": "img/teachers/Mariano O. Evangelista Jr..jpeg",
-        "name": "Mariano O. Evangelista Jr.",
-        "designation": "Teacher III"
+        "name": "Jean H. Laparan",
+        "designation": "Teacher II | Key Teacher",
+        "advisory":  "1234",
+        "sections": "section 1, section 2, section 3",
+        "ancillary": "..."
+      },
+      {
+        "picture": "img/teachers/Mariano O. Evangelista Jr..jpeg",
+        "name": "Jean H. Laparan",
+        "designation": "Teacher II | Key Teacher",
+        "advisory":  "1234",
+        "sections": "section 1, section 2, section 3",
+        "ancillary": "..."
       },
       {
         "picture": "img/teachers/Reynaldo M. Asuncion Jr..jpg",
-        "name": "Reynaldo M. Asuncion Jr.",
-        "designation": "Teacher I"
+        "name": "Jean H. Laparan",
+        "designation": "Teacher II | Key Teacher",
+        "advisory":  "1234",
+        "sections": "section 1, section 2, section 3",
+        "ancillary": "..."
+      },
+      {
+        "picture": "img/teachers/Voltaire A. Eborde.jpg",
+        "name": "Jean H. Laparan",
+        "designation": "Teacher II | Key Teacher",
+        "advisory":  "1234",
+        "sections": "section 1, section 2, section 3",
+        "ancillary": "..."
       }
     ]
   }

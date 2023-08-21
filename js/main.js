@@ -117,7 +117,7 @@
 
   $(".announcement-carousel").owlCarousel({
     autoplay: true,
-    smartSpeed: 1000,
+    smartSpeed: 3000,
     center: true,
     margin: 24,
     dots: false,

@@ -72,7 +72,7 @@ function displayAnnouncementSlides(announcements) {
     const contentParagraph = $("<p>").addClass("mb-1").html(item.content);
     const date = $("<small>")
       .addClass("text-center")
-      .text(
+      .html(
         "Posted on: " +
           dayjs(item.date_posted, "MM-DD-YYYY").format("MMMM D, YYYY")
       );
@@ -84,7 +84,7 @@ function displayAnnouncementSlides(announcements) {
         .addClass("mt-3 italic")
         .attr("href", item.link)
         .attr("target", "_blank")
-        .text("Click Here to view details");
+        .html("Click Here to view details");
     }
 
     announcementDiv.append(contentParagraph, date, line, link);
@@ -109,7 +109,7 @@ function displayMenus(menus) {
         .addClass("nav-item nav-link")
         .attr("href", menus[key].link)
         .attr("target", "_blank")
-        .text(menus[key].label);
+        .html(menus[key].label);
     } else {
       navBarDropdown = $("<div>").addClass("nav-item dropdown");
 
@@ -117,7 +117,7 @@ function displayMenus(menus) {
         .addClass("nav-link dropdown-toggle")
         .attr("href", menus[key].link)
         .attr("data-bs-toggle", "dropdown")
-        .text(menus[key].label);
+        .html(menus[key].label);
 
       const subMenuDiv = $("<div>").addClass("dropdown-menu fade-down m-0");
 
@@ -126,7 +126,7 @@ function displayMenus(menus) {
           .addClass("dropdown-item")
           .attr("href", subMenuItem.link)
           .attr("target", "_blank")
-          .text(subMenuItem.label);
+          .html(subMenuItem.label);
         subMenuDiv.append(subMenuLink);
       });
 

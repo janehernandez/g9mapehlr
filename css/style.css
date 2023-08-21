@@ -519,6 +519,9 @@
   margin-right: auto !important;
 }
 
+.navbar {
+    padding: 5rem !important
+}
 @media (min-width: 992px) {
   .teacher-details {
     text-align: left !important;
@@ -528,5 +531,9 @@
 
   .teacher-img {
     margin-right: 2rem !important;
+  }
+
+  .navbar {
+    padding: 0 !important
   }
 }

@@ -117,7 +117,7 @@
 
   $(".announcement-carousel").owlCarousel({
     autoplay: true,
-    smartSpeed: 3000,
+    smartSpeed: 1000,
     center: true,
     margin: 24,
     dots: false,
@@ -128,7 +128,7 @@
         items: 1,
       },
       768: {
-        items: 1,
+        items: 2,
       },
       992: {
         items: 2,

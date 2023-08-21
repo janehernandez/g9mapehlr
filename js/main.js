@@ -78,12 +78,12 @@
   });
 
   $(".header-carousel").owlCarousel({
-    autoplay: true,
-    smartSpeed: 1500,
+    autoplay: false,
+    smartSpeed: 0,
     items: 1,
     dots: false,
-    loop: true,
-    nav: true,
+    loop: false,
+    nav: false,
     navText: [
       '<i class="bi bi-chevron-left"></i>',
       '<i class="bi bi-chevron-right"></i>',
